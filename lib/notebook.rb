@@ -13,7 +13,6 @@ class Notebook
 
   def note_body(title)
     @all_notes.each do |x|
-      # puts x.title
       return x.body if x.title == title
     end
   end
