@@ -8,12 +8,13 @@ class Notebook
   end
 
   def note_titles
-    @all_notes.each { |x| puts x[:title] }
+    @all_notes.map { |x| x.title }.join("\n")
   end
 
   def note_body(title)
     @all_notes.each do |x|
-      return x[:body] if x[:title] == title
+      # puts x.title
+      return x.body if x.title == title
     end
   end
 end

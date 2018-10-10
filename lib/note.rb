@@ -4,6 +4,9 @@ class Note
     @notebook = notebook
     @title = title
     @body = body
-    @notebook.all_notes << { title: @title, body: @body }
+    # @notebook.all_notes << { title: @title, body: @body }
+    @notebook.all_notes << self
+    # p @notebook.all_notes
   end
+
 end

@@ -18,7 +18,8 @@ describe 'Features' do
     note = Note.new(notebook, "title", "body")
     note2 = Note.new(notebook, "title2", "body2")
     note3 = Note.new(notebook, "title3", "body3")
-    expect(notebook.note_titles[2][:title]).to eq "title3"
+    # expect(notebook.note_titles[2][:title]).to eq "title3"
+    expect(notebook.note_titles).to eq "title\ntitle2\ntitle3"
   end
 
   it 'get note body from title' do
