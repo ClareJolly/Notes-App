@@ -18,7 +18,7 @@ describe 'Notebook' do
 
     it 'displays note titles' do
       @notebook.all_notes = [note1, note2, note3]
-      expect(@notebook.note_titles).to eq "Title\nTitle2\nTitle3"
+      expect(@notebook.note_titles).to eq "Title\nTitle2\nTitle3" 
     end
 
     it 'note' do
