@@ -7,14 +7,4 @@ describe 'Note' do
       expect(note.title).to eq "title"
     end
   end
-
-  # describe 'Display' do
-  #   # it 'note' do
-  #   #   notebook = Notebook.new("Notebook")
-  #   #   note = Note.new(notebook, "title", "body")
-  #   #   note2 = Note.new(notebook, "title2", "body2")
-  #   #   note3 = Note.new(notebook, "title3", "body3")
-  #   #   expect(show_note("title")).to eq "body"
-  #   # end
-  # end
 end

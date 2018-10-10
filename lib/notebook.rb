@@ -1,5 +1,5 @@
 class Notebook
-  attr_reader :title # , :all_notes
+  attr_reader :title
   attr_accessor :all_notes
 
   def initialize(title = "Notebook")
@@ -12,7 +12,6 @@ class Notebook
   end
 
   def note_body(title)
-    # p @all_notes
     @all_notes.each do |x|
       return x[:body] if x[:title] == title
     end
