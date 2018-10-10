@@ -1,6 +1,6 @@
-#Test drive a Notes app
+# Test drive a Notes app
 
-##User Stories
+## User Stories
 ```
 User can add a note with a title and a body
 
