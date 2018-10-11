@@ -11,7 +11,7 @@ class Notebook
     array.map { |x| x.title }.join("\n")
   end
 
-  def note_body(title,array = @all_notes)
+  def note_body(title, array = @all_notes)
     array.each do |x|
       return x.body if x.title == title
     end

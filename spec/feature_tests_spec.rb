@@ -21,7 +21,7 @@ describe 'Features' do
     note = Note.new(notebook, "Title", "body")
     note2 = Note.new(notebook, "Title2", "body2")
     note3 = Note.new(notebook, "Title3", "body3")
-    expect(notebook.note_body("Title3",notebook.all_notes)).to eq "body3"
+    expect(notebook.note_body("Title3", notebook.all_notes)).to eq "body3"
   end
 
   it 'create note' do

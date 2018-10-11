@@ -36,6 +36,25 @@
 # reason to make things so abbreviated as to be unreadable. These messages are
 # designed to make you write more readable code - not less.
 
+AllCops:
+  Excludes:
+    - spec/feature-tests.rb
+    # - recipes/basic.rb
+    # - attributes/*.rb
+
+# Customize rules
+Metrics/LineLength:
+  Max: 95
+
+MethodLength:
+  Max: 35
+
+Metrics/AbcSize:
+   Enabled: false
+
+BlockLength:
+  Max: 70
+
 Metrics/LineLength:
   Max: 100
 
