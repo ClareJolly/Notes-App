@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/clare/Dropbox/projects/Notes-App/spec/feature_tests_spec.rb": [
+      "/Users/howtorowacat/Dropbox/projects/Notes-App/spec/feature_tests_spec.rb": [
         1,
         1,
         null,
@@ -35,7 +35,7 @@
         null,
         null
       ],
-      "/Users/clare/Dropbox/projects/Notes-App/lib/note.rb": [
+      "/Users/howtorowacat/Dropbox/projects/Notes-App/lib/note.rb": [
         1,
         1,
         1,
@@ -47,14 +47,14 @@
         null,
         null
       ],
-      "/Users/clare/Dropbox/projects/Notes-App/lib/notebook.rb": [
+      "/Users/howtorowacat/Dropbox/projects/Notes-App/lib/notebook.rb": [
         1,
         1,
         1,
         null,
         1,
-        8,
-        8,
+        7,
+        7,
         null,
         null,
         1,
@@ -68,11 +68,12 @@
         null,
         null
       ],
-      "/Users/clare/Dropbox/projects/Notes-App/spec/note_spec.rb": [
+      "/Users/howtorowacat/Dropbox/projects/Notes-App/spec/note_spec.rb": [
         1,
         null,
         1,
         1,
+        2,
         1,
         1,
         1,
@@ -80,7 +81,7 @@
         null,
         null
       ],
-      "/Users/clare/Dropbox/projects/Notes-App/spec/notebook_spec.rb": [
+      "/Users/howtorowacat/Dropbox/projects/Notes-App/spec/notebook_spec.rb": [
         1,
         null,
         1,
@@ -112,6 +113,6 @@
         null
       ]
     },
-    "timestamp": 1539241902
+    "timestamp": 1539291910
   }
 }
